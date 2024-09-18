@@ -10,11 +10,6 @@
             'name' => 'Cursos virtuales',
             'route' => route('courses.index'),
             'active' => request()->routeIs('courses.*')
-        ],[
-            
-            'name' => 'Cursos presenciales',
-            'route' => route('cursos-presenciales'),
-            'active' => request()->routeIs('cursos-presenciales')
         ]
 
     ];   
