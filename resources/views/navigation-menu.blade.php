@@ -5,11 +5,6 @@
             'route' => route('home'),
             'active' => request()->routeIs('home')
 
-        ],[
-            
-            'name' => 'Cursos virtuales',
-            'route' => route('courses.index'),
-            'active' => request()->routeIs('courses.*')
         ]
 
     ];   
